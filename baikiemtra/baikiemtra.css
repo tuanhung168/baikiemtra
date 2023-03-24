@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    margin: auto;
+    width: 700px;
+}
+
+.header {
+    position:relative;
+}
+
+.header .content-header {
+    position:absolute;
+    bottom : 40px;
+    padding: 20px;
+    line-height: 40px;
+    font-size: 25px;
+    width: 70%;
+    background-color: hsl(41.63deg 89.09% 67.65%);
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+
+
+}
+
+.main .nav {
+    width: 300px;
+    margin: 30px 25px;
+    line-height: 40px;
+
+}
+
+
+.nav img {
+    width: 100%;
+    border-top: 5px solid hsl(42.23deg 91.79% 61.76%);
+
+
+}
